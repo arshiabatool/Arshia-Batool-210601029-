@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NDMA Portal</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            
+        
+            <h1>Map Explorer ~ arshia</h1>
+            
+        </div>
+    </header>
+
+    <div class="content">
+        <video autoplay muted loop id="bg-video">
+            <source src="bg.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        
+    </div>
+
+    <div class="menu-btn" id="menu-btn">
+        ☰
+    </div>
+      
+    <div class="container">
+        <div class="side-tab left-tab" id="left-tab">
+            <div class="button-wrapper">
+                <h2>Remote Sensing Data</h2>
+                <div class="gif-button" onclick="window.location.href = 'satteliye isb.jpg'"data-static="sattelite.png" data-animated="sattelite.png">
+                    <img src="sattelite.png"> 
+                    <p>Satellite Imagery</p>
+                    
+                        </div>
+                        <div class="gif-button" onclick="window.location.href = 'ndviisb.png'"data-static="ndvi.png" data-animated="ndvi.png">
+                            <img src="ndvi.png">
+                            <p>NDVI</p> 
+                        </div>   
+                        <div class="gif-button" onclick="window.location.href = 'lc.jpeg'"data-static="land'.png" data-animated="land'.png">
+                            <img src="land'.png" >
+                            <p>Land Cover</p> 
+                        </div>  <div class="gif-button" onclick="window.location.href = 'soilm.png'"data-static="soil.jpg" data-animated="soil.jpg">
+                            <img src="soil.jpg">
+                            <p>Soil Moisture</p> 
+                        </div>  
+                     
+                    </div>
+            <div class="button-wrapper">
+                <h2>Urban and Infrastructure</h2>
+                <div class="gif-button" onclick="window.location.href = 'urbans.png'"data-static="urrban.png" data-animated="urrban.png">
+                    <img src="urrban.png">
+                    <p>Urban</p> 
+                </div>
+                <div class="gif-button" onclick="window.location.href =  'roadmap.jpeg'"data-static="roads.png" data-animated="roads.png">
+                    <img src="roads.png">
+                    <p>Roads</p> 
+                </div>
+                <div class="gif-button" onclick="window.location.href = 'building map isb.jpeg'" data-static="bilduings.jpg" data-animated="bilduings.jpg">
+                    <img src="bilduings.jpg">
+                    <p>Buildings</p> 
+                </div>
+               
+            </div>
+           
+        </div>
+
+        
+    <div class="side-tab right-tab" id="right-tab">
+            <div class="button-wrapper">
+                <h2>Topographic Data</h2>
+                <div class="gif-button" onclick="window.location.href = 'demmm.jpeg'" data-static="dem.jpeg" data-animated="dem.jpeg">
+                    <img src="dem.jpeg">
+                    <p>DEM</p>
+                    
+                        </div>
+                        <div class="gif-button" onclick="window.location.href = 'slope nap.jpeg'" data-static="slopee.jpeg" data-animated="slopee.jpeg">
+                            <img src="slopee.jpeg">
+                            <p>Slope Analysis</p> 
+                        </div>   
+                        <div class="gif-button" onclick="window.location.href = 'hillshade.jpg'" data-static="hs.jpeg" data-animated="hs.jpeg">
+                            <img src="hs.jpeg">
+                            <p>Hillshade</p> 
+                        </div>  <div class="gif-button" onclick="window.location.href = 'conto.jpeg'" data-static="cont.jpeg" data-animated="cont.jpeg">
+                            <img src="cont.jpeg">
+                            <p>Contours</p> 
+                        </div>  
+                        
+            </div>
+            <div class="button-wrapper">
+                <h2> Environmental Hazards</h2>
+                <div class="gif-button" onclick="window.location.href = 'flood isb.jpeg'" data-static="flood logo.jpeg" data-animated="flood logo.jpeg">
+                    <img src="flood logo.jpeg" >
+                    <p>Flood</p>
+                    
+                        </div>
+                        <div class="gif-button" onclick="window.location.href = 'eq isb.jpg'" data-static="earthqiake logo.png" data-animated="earthqiake logo.png">
+                            <img src="earthqiake logo.png">
+                            <p>Earthquake</p> 
+                        </div>   
+                        <div class="gif-button" onclick="window.location.href = 'wfisb.jpg'" data-static="wf logo.jpeg" data-animated="wf logo.jpeg">
+                            <img src="wf logo.jpeg">
+                            <p>Wildfire</p> 
+                        </div>  
+    
+                        
+            </div>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
